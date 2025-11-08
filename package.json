@@ -1,0 +1,28 @@
+{
+  "name": "md-to-pdf-with-mermaid",
+  "version": "1.0.0",
+  "description": "Convert Markdown to PDF with Mermaid diagrams and clickable bookmarks",
+  "type": "module",
+  "main": "md-to-pdf.js",
+  "bin": {
+    "md-to-pdf": "./md-to-pdf.js"
+  },
+  "scripts": {
+    "test": "node md-to-pdf.js ../vcb-security-framework/00-introduction-and-roadmap.md test-output.pdf"
+  },
+  "keywords": [
+    "markdown",
+    "pdf",
+    "mermaid",
+    "bookmarks",
+    "prince",
+    "converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^17.0.0",
+    "prince": "^1.1.1",
+    "puppeteer": "^24.29.1"
+  }
+}
